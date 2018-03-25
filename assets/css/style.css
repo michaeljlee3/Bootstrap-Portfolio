@@ -127,9 +127,7 @@ li:last-child>a {
 .auth-image {
     width: 200px;
     height: auto;
-    margin-top: 10px;
     float: left;
-    margin-right: 25px;
 }
 
 .sidebar {
@@ -167,14 +165,17 @@ h3, .sidebar, h2 {
     margin: 20px 0 25px;
 }
 
-.work:nth-child(even) {
-    margin-right: 40px;
+.row>.col-md-6>:nth-child(odd)>.work {
+    float: left;
+}
+
+.row>.col-md-6:nth-child(even)>.work{
+    float: right;
 }
 
 .work img {
     width: 100%;
     border: 0px none;
-    opacity: .0;
 }
 
 .work h3 {
@@ -270,4 +271,14 @@ a:-webkit-any-link {
 
 .navbar-default .navbar-nav>li>a {
     color: #999;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-6 {
+    padding: 0 0;
+    
 }
