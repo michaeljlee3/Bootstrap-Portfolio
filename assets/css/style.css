@@ -220,7 +220,7 @@ textarea {
     height: 200px;
 }
 
-input[type=submit] {
+button[type=submit] {
     background: #4aaaa5;
     border: 0 none;
     color: #fff;
@@ -281,4 +281,8 @@ a:-webkit-any-link {
 .col-md-6 {
     padding: 0 0;
     
+}
+
+textarea.form-control {
+    margin-bottom: 20px;
 }
